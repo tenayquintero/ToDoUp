@@ -1,0 +1,27 @@
+ul {
+    margin-top: 1rem;
+    color: white;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+ul li {
+    list-style: none;
+    text-align: start;
+    margin-top: 1rem;
+}
+
+ul li input {
+    margin-right: 0.5rem;
+}
+
+ul li button {
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}

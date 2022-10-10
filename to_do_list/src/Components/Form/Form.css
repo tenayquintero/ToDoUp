@@ -1,0 +1,25 @@
+form {
+    display: flex;
+    padding-left: 2rem;
+
+}
+
+form input {
+    height: 30px;
+    padding: 0.3rem;
+}
+
+form input:focus {
+
+    outline: solid 2px lightgoldenrodyellow;
+    border: none;
+}
+
+form button {
+    height: 30px;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+
+}

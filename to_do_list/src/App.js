@@ -1,20 +1,26 @@
-import './App.css';
-import Form from './Components/Form/Form';
-import ListTask from './Components/ListTask/ListTask';
-import useList from './hooks/useList';
+import Header from "./components/Header/Header";
+import Form from "./components/Form/Form";
+import ListTask from "./components/ListTask/ListTask";
+import useList from "./hooks/useList";
+import "./App.css";
 
-
-function App() {
+const App = () => {
   const itemTask = useList();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Form itemTask={itemTask.add}/>
-        <ListTask itemTask={itemTask.get} deleteTask={itemTask.remove}/>
-      </header>
-      <button>click</button>
+    <div className="app">
+      <Header />
+      <section className="container_form_list">
+        <h2>📎</h2>
+        <Form itemTask={itemTask.add} />
+        <ListTask
+          itemTask={itemTask.get}
+          deleteTask={itemTask.remove}
+          upDate={itemTask.upDate}
+        />
+      </section>
     </div>
   );
-}
+};
 
 export default App;
