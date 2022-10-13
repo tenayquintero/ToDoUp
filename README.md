@@ -1,6 +1,6 @@
 # To do list📋
-Para simplificar nuestra vida nos podemos apoyar en una sencilla aplicación que nos ayudará a recordar las tareas del día.
-"Tu lista de tareas" la puedes llevar en tú móvil para organizarte de manera productiva tu agenda.
+Para simplificar nuestra vida nos podemos apoyar en una sencilla aplicación que nos ayudará a recordar las tareas del día a día.
+"Tu lista de tareas" la puedes llevar en tú móvil para organizar de manera productiva tu agenda diaria.
 Tacha tu tarea terminada y borra las que no sean ya de tu interés.
 
 
