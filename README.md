@@ -3,4 +3,5 @@ Para simplificar nuestra vida nos podemos apoyar en una sencilla aplicación que
 "Tu lista de tareas" la puedes llevar en tú móvil para organizarte de manera productiva tu agenda.
 Tacha tu tarea terminada y borra las que no sean ya de tu interés.
 
-https://tenaytasktodo.netlify.app/
+
+Pruébala aquí [Tú Lista De Tareas](https://tenaytasktodo.netlify.app/) 
